@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">yft</string>
+    <string name="app_name">YFT</string>
+    <string name="balance">Balance:</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_sync">pref_sync</string>
+    <string name="pref_key_account_settings">pref_key_account_settings</string>
+    <string name="pref_accountPassword">pref_accountPassword</string>
+    <string name="pref_key_anonymous">pref_key_anonymous</string>
+    <string name="pref_key_anonymous_settings">pref_key_anonymous_settings</string>
+    <string name="anonymous">Anonymity</string>
+    <string name="enable">Enable</string>
+    <string name="enable_anonymity">Enable anonymity</string>
+    <string name="password">Password</string>
+    <string name="password_description">Passowrd to access service</string>
+    <string name="login">Login</string>
+    <string name="login_description">Login to access service</string>
+    <string name="account">Account</string>
+    <string name="synchronization_descroption">How often synchronize with a remote server</string>
+    <string name="synchronize_period">Synchronization period</string>
+    <string name="synchronization">Synchronization</string>
+    <string name="enable_synchronization">Enable synchronization</string>
+    <string name="synchronize_decription">Profile synchronization</string>
+    <string name="about_description">Any text about app, author rights and another boring things</string>
+    <string name="about_title">About app</string>
 </resources>
