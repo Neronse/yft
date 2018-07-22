@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/synchronization"
+        android:key="pref_key_sync_settings">
+        <CheckBoxPreference
+            android:key="@string/pref_sync"
+            android:title="@string/enable_synchronization"
+            android:summary="@string/synchronize_decription"
+            android:defaultValue="true" />
+        <!--            from res/values/arrays.xml        -->
+        <ListPreference
+            android:dependency="pref_sync"
+            android:key="pref_syncSyncInterval"
+            android:title="@string/synchronize_period"
+            android:summary="@string/synchronization_descroption"
+            android:dialogTitle="Выберите период"
+            android:entries="@array/pref_syncConnectionTypes_entries"
+            android:entryValues="@array/pref_syncConnectionTypes_values"
+            android:defaultValue="1d" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/account"
+        android:key="@string/pref_key_account_settings">
+        <EditTextPreference android:title="@string/login"
+            android:key="pref_accountLogin"
+            android:summary="@string/login_description"/>
+        <EditTextPreference android:title="@string/password"
+            android:key="@string/pref_accountPassword"
+            android:password="true"
+            android:summary="@string/password_description"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/anonymous"
+        android:key="@string/pref_key_anonymous_settings">
+        <SwitchPreference
+            android:title="@string/enable"
+            android:key="@string/pref_key_anonymous"
+            android:summary="@string/enable_anonymity"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Information">
+        <PreferenceScreen
+            android:title="About application">
+            <intent android:action="myintent.action.ABOUTAPP"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>
