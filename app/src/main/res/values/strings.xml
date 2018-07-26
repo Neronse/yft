@@ -25,4 +25,6 @@
     <string name="synchronize_decription">Profile synchronization</string>
     <string name="about_description">Any text about app, author rights and another boring things</string>
     <string name="about_title">About app</string>
+    <string name="information">Information</string>
+    <string name="pref_about_title">About application</string>
 </resources>

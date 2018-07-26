@@ -39,9 +39,9 @@
             android:summary="@string/enable_anonymity"/>
     </PreferenceCategory>
     <PreferenceCategory
-        android:title="Information">
+        android:title="@string/information">
         <PreferenceScreen
-            android:title="About application">
+            android:title="@string/pref_about_title">
             <intent android:action="myintent.action.ABOUTAPP"/>
         </PreferenceScreen>
     </PreferenceCategory>
