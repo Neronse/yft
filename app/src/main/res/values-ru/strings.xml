@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">YFT</string>
+    <string name="balance">Баланс:</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_sync">pref_sync</string>
+    <string name="pref_key_account_settings">pref_key_account_settings</string>
+    <string name="pref_accountPassword">pref_accountPassword</string>
+    <string name="pref_key_anonymous">pref_key_anonymous</string>
+    <string name="pref_key_anonymous_settings">pref_key_anonymous_settings</string>
+    <string name="anonymous">Анонимность</string>
+    <string name="enable">Включить</string>
+    <string name="enable_anonymity">Включить анонимный режим</string>
+    <string name="password">Пароль</string>
+    <string name="password_description">Пароль для доступа к сервису</string>
+    <string name="login">Логин</string>
+    <string name="login_description">Логин для доступа к сервису</string>
+    <string name="account">Аккаунт</string>
+    <string name="synchronization_descroption">Как часто синхронизироваться с сервисом</string>
+    <string name="synchronize_period">Период синхронизации</string>
+    <string name="synchronization">Синхронизация</string>
+    <string name="enable_synchronization">Включить синхронизацию</string>
+    <string name="synchronize_decription">Профиль смнхронизации</string>
+    <string name="about_description">Какой то текст про приложение, про авторские права и других скучных штуках</string>
+    <string name="about_title">О приложении</string>
+    <string name="information">Информация</string>
+    <string name="pref_about_title">О приложении</string>
+</resources>
