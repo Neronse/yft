@@ -53,8 +53,10 @@ class SettingsActivity : AppCompatPreferenceActivity() {
             // to their values. When their values change, their summaries are
             // updated to reflect the new value, per the Android Design
             // guidelines.
-            bindPreferenceSummaryToValue(findPreference("pref_syncSyncInterval"))
-            bindPreferenceSummaryToValue(findPreference("pref_accountLogin"))
+            bindPreferenceSummaryToValue(findPreference("pref_UpdateInterval"))
+            bindPreferenceSummaryToValue(findPreference("pref_accountName"))
+            bindPreferenceSummaryToValue(findPreference("pref_accountPassword"))
+            bindPreferenceSummaryToValue(findPreference("pref_currencyType"))
         }
 
         override fun onOptionsItemSelected(item: MenuItem): Boolean {

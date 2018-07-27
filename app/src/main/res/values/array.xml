@@ -12,4 +12,15 @@
         <item>1h</item>
         <item>1d</item>
     </string-array>
+
+    <string-array name="pref_currency_entries">
+        <item>Rubles</item>
+        <item>Dollars</item>
+
+    </string-array>
+
+    <string-array name="pref_currency_values">
+        <item>RUB</item>
+        <item>USD</item>
+    </string-array>
 </resources>

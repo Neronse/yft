@@ -5,24 +5,17 @@
 
     <!-- Strings related to Settings -->
 
-    <string name="pref_sync">pref_sync</string>
-    <string name="pref_key_account_settings">pref_key_account_settings</string>
-    <string name="pref_accountPassword">pref_accountPassword</string>
-    <string name="pref_key_anonymous">pref_key_anonymous</string>
-    <string name="pref_key_anonymous_settings">pref_key_anonymous_settings</string>
-    <string name="anonymous">Анонимность</string>
     <string name="enable">Включить</string>
-    <string name="enable_anonymity">Включить анонимный режим</string>
-    <string name="password">Пароль</string>
-    <string name="password_description">Пароль для доступа к сервису</string>
-    <string name="login">Логин</string>
-    <string name="login_description">Логин для доступа к сервису</string>
+    <string name="surname">Фамилия</string>
+    <string name="surname_description">Фамилия пользователя</string>
+    <string name="login">Имя</string>
+    <string name="login_description">Имя пользователя</string>
     <string name="account">Аккаунт</string>
-    <string name="synchronization_descroption">Как часто синхронизироваться с сервисом</string>
-    <string name="synchronize_period">Период синхронизации</string>
+    <string name="update_time_description">Как часто обновлять курсы валют</string>
+    <string name="update_period">Период обновления</string>
     <string name="synchronization">Синхронизация</string>
-    <string name="enable_synchronization">Включить синхронизацию</string>
-    <string name="synchronize_decription">Профиль смнхронизации</string>
+    <string name="enable_updates">Включить обновления</string>
+    <string name="update_description">Обновления курса валют</string>
     <string name="about_description">Какой то текст про приложение, про авторские права и других скучных штуках</string>
     <string name="about_title">О приложении</string>
     <string name="information">Информация</string>
@@ -34,4 +27,8 @@
     <string name="last_update">Последнее обновление:</string>
     <string name="refresh">обновить</string>
     <string name="history">История</string>
+    <string name="dialog_update_title">Выберите период</string>
+    <string name="currency">Валюта</string>
+    <string name="currencyType">Тип валюты</string>
+    <string name="chooseCurrency">Выберите тип валюты</string>
 </resources>

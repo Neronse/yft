@@ -5,24 +5,19 @@
 
     <!-- Strings related to Settings -->
 
-    <string name="pref_sync">pref_sync</string>
-    <string name="pref_key_account_settings">pref_key_account_settings</string>
-    <string name="pref_accountPassword">pref_accountPassword</string>
-    <string name="pref_key_anonymous">pref_key_anonymous</string>
-    <string name="pref_key_anonymous_settings">pref_key_anonymous_settings</string>
-    <string name="anonymous">Anonymity</string>
+    <string name="pref_sync" translatable="false">pref_sync</string>
+    <string name="pref_key_account_settings" translatable="false">pref_key_account_settings</string>
+    <string name="pref_accountPassword" translatable="false">pref_accountPassword</string>
     <string name="enable">Enable</string>
-    <string name="enable_anonymity">Enable anonymity</string>
-    <string name="password">Password</string>
-    <string name="password_description">Passowrd to access service</string>
-    <string name="login">Login</string>
-    <string name="login_description">Login to access service</string>
+    <string name="surname_description">User surname</string>
+    <string name="login">First name</string>
+    <string name="login_description">User name</string>
     <string name="account">Account</string>
-    <string name="synchronization_descroption">How often synchronize with a remote server</string>
-    <string name="synchronize_period">Synchronization period</string>
+    <string name="update_time_description">How often update exchange rates</string>
+    <string name="update_period">Update  period</string>
     <string name="synchronization">Synchronization</string>
-    <string name="enable_synchronization">Enable synchronization</string>
-    <string name="synchronize_decription">Profile synchronization</string>
+    <string name="enable_updates">Enable updates</string>
+    <string name="update_description">Exchange rate update</string>
     <string name="about_description">Any text about app, author rights and another boring things</string>
     <string name="about_title">About app</string>
     <string name="information">Information</string>
@@ -36,4 +31,10 @@
     <string name="last_update">Last update:</string>
     <string name="refresh">refresh</string>
     <string name="history">History</string>
+    <string name="dialog_update_title">Choose period</string>
+    <string name="surname">Surname</string>
+    <string name="pref_currencyType" translatable="false">pref_currencyType</string>
+    <string name="currency">Currency</string>
+    <string name="currencyType">Currency type</string>
+    <string name="chooseCurrency">Choose currency</string>
 </resources>
