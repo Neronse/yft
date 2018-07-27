@@ -27,4 +27,11 @@
     <string name="about_title">О приложении</string>
     <string name="information">Информация</string>
     <string name="pref_about_title">О приложении</string>
+    <string name="exchange_rate">Курсы валют:</string>
+    <string name="buy">Покупка:</string>
+    <string name="sale">Продажа:</string>
+    <string name="bill">Счет:</string>
+    <string name="last_update">Последнее обновление:</string>
+    <string name="refresh">обновить</string>
+    <string name="history">История</string>
 </resources>
