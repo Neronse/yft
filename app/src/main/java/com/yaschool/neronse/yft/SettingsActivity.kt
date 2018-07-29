@@ -1,6 +1,7 @@
 package com.yaschool.neronse.yft
 
 import android.annotation.TargetApi
+import android.arch.lifecycle.ViewModelProviders
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
@@ -18,7 +19,6 @@ import android.text.TextUtils
 import android.view.MenuItem
 
 class SettingsActivity : AppCompatPreferenceActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setupActionBar()
@@ -55,8 +55,9 @@ class SettingsActivity : AppCompatPreferenceActivity() {
             // guidelines.
             bindPreferenceSummaryToValue(findPreference("pref_UpdateInterval"))
             bindPreferenceSummaryToValue(findPreference("pref_accountName"))
-            bindPreferenceSummaryToValue(findPreference("pref_accountPassword"))
+            bindPreferenceSummaryToValue(findPreference("pref_accountSurname"))
             bindPreferenceSummaryToValue(findPreference("pref_currencyType"))
+            bindPreferenceSummaryToValue(findPreference("pref_accountType"))
         }
 
         override fun onOptionsItemSelected(item: MenuItem): Boolean {

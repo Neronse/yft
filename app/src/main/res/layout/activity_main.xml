@@ -4,9 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".MainActivity">
+    tools:context=".mainscreen.MainActivity">
 
-    <include layout="@layout/main_screen_layout"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="MainScreen"
+        android:id="@+id/mainscreen.fragment"
+        android:name="com.yaschool.neronse.yft.mainscreen.MainScreenFragment"/>
 
     <include layout="@layout/bottom_sheet_content_view"/>
 
@@ -22,16 +27,5 @@
         android:clickable="true"
         android:focusable="true" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fabRemove"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:src="@drawable/ic_remove_white_24dp"
-        app:layout_anchor="@+id/bottomSheet"
-        app:layout_anchorGravity="top|start"
-        app:rippleColor="?android:textColorPrimary"
-        android:clickable="true"
-        android:focusable="true"/>
 
 </android.support.design.widget.CoordinatorLayout>

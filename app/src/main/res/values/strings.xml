@@ -7,7 +7,7 @@
 
     <string name="pref_sync" translatable="false">pref_sync</string>
     <string name="pref_key_account_settings" translatable="false">pref_key_account_settings</string>
-    <string name="pref_accountPassword" translatable="false">pref_accountPassword</string>
+    <string name="pref_accountSurname" translatable="false">pref_accountSurname</string>
     <string name="enable">Enable</string>
     <string name="surname_description">User surname</string>
     <string name="login">First name</string>
@@ -23,11 +23,10 @@
     <string name="information">Information</string>
     <string name="pref_about_title">About application</string>
     <string name="exchange_rate">Exchange Rate:</string>
-    <string name="buy">Buy:</string>
-    <string name="sale">Sale:</string>
+    <string name="typeCurrency" translatable="false">USD -</string>
     <string name="rubType" translatable="false">RUB</string>
     <string name="usd" translatable="false">USD</string>
-    <string name="bill">Bill:</string>
+    <string name="account_title">Account:</string>
     <string name="last_update">Last update:</string>
     <string name="refresh">refresh</string>
     <string name="history">History</string>
@@ -37,4 +36,27 @@
     <string name="currency">Currency</string>
     <string name="currencyType">Currency type</string>
     <string name="chooseCurrency">Choose currency</string>
+    <string name="pref_accountName" translatable="false">pref_accountName</string>
+    <string name="pref_UpdateTime" translatable="false">pref_UpdateInterval</string>
+    <string name="pref_accountType" translatable="false">pref_accountType</string>
+    <string name="accout_type">Account type</string>
+    <string name="choose_account_type">Choose account type</string>
+    <string name="category_products">products</string>
+    <string name="category_clothes">clothes</string>
+    <string name="category_auto">auto</string>
+    <string name="category_other">other</string>
+    <string name="income">income</string>
+    <string name="expense">expense</string>
+    <string name="add_operation">Add operation</string>
+    <string name="no_operations">No operations</string>
+    <string name="сount">Сount:</string>
+    <string name="money">money</string>
+    <string name="choose_category">Choose category:</string>
+    <string name="choose_operation">Choose operation:</string>
+    <string name="comment">Comment:</string>
+    <string name="operation_name">operation name</string>
+    <string name="nothing_to_show_yet">Nothing to show yet :(</string>
+    <string name="incomeMoney">Income money</string>
+    <string name="expenseMoney">Expense money</string>
+
 </resources>

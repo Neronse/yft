@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/listItemText"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Test string"/>
+
+    <TextView
+        android:id="@+id/opearValue"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@+id/listItemText"
+        android:gravity="end"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        style="?android:textAppearanceSmall"
+        tools:text = "+123"/>
+</RelativeLayout>
