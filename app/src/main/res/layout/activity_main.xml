@@ -1,57 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".mainscreen.MainActivity">
 
-    <TextView
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="MainScreen"
+        android:id="@+id/mainscreen.fragment"
+        android:name="com.yaschool.neronse.yft.mainscreen.MainScreenFragment"/>
+
+    <include layout="@layout/bottom_sheet_content_view"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/balance"
         android:layout_margin="8dp"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        android:src="@drawable/ic_add_white_24dp"
+        app:layout_anchor="@+id/bottomSheet"
+        app:layout_anchorGravity="top|end"
+        app:rippleColor="?android:textColorPrimary"
+        android:clickable="true"
+        android:focusable="true" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/rub"
-            android:text="1000"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            android:layout_marginStart="8dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Р"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            android:layout_marginStart="8dp"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/dollar"
-            android:text="1000"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            android:layout_marginStart="8dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="$"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            android:layout_marginStart="8dp"/>
-    </LinearLayout>
-
-</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

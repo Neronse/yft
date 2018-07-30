@@ -5,43 +5,53 @@
         android:key="pref_key_sync_settings">
         <CheckBoxPreference
             android:key="@string/pref_sync"
-            android:title="@string/enable_synchronization"
-            android:summary="@string/synchronize_decription"
+            android:title="@string/enable_updates"
+            android:summary="@string/update_description"
             android:defaultValue="true" />
         <!--            from res/values/arrays.xml        -->
         <ListPreference
             android:dependency="pref_sync"
-            android:key="pref_syncSyncInterval"
-            android:title="@string/synchronize_period"
-            android:summary="@string/synchronization_descroption"
-            android:dialogTitle="Выберите период"
+            android:key="@string/pref_UpdateTime"
+            android:title="@string/update_period"
+            android:summary="@string/update_time_description"
+            android:dialogTitle="@string/dialog_update_title"
             android:entries="@array/pref_syncConnectionTypes_entries"
             android:entryValues="@array/pref_syncConnectionTypes_values"
-            android:defaultValue="1d" />
+            android:defaultValue="10" />
     </PreferenceCategory>
     <PreferenceCategory
         android:title="@string/account"
         android:key="@string/pref_key_account_settings">
-        <EditTextPreference android:title="@string/login"
-            android:key="pref_accountLogin"
-            android:summary="@string/login_description"/>
-        <EditTextPreference android:title="@string/password"
-            android:key="@string/pref_accountPassword"
-            android:password="true"
-            android:summary="@string/password_description"/>
+        <EditTextPreference
+            android:key="@string/pref_accountName"
+            android:summary="@string/login_description"
+            android:title="@string/login" />
+        <EditTextPreference
+            android:title="@string/surname"
+            android:key="@string/pref_accountSurname"
+            android:summary="@string/surname_description"/>
+        <ListPreference
+            android:key="@string/pref_currencyType"
+            android:title="@string/currency"
+            android:summary="@string/currencyType"
+            android:dialogTitle="@string/chooseCurrency"
+            android:entries="@array/pref_currency_entries"
+            android:entryValues="@array/pref_currency_values"
+            android:defaultValue="RUB"
+             />
+        <ListPreference
+            android:key="@string/pref_accountType"
+            android:title="@string/accout_type"
+            android:dialogTitle="@string/choose_account_type"
+            android:entries="@array/pref_account_entries"
+            android:entryValues="@array/pref_account_values"
+            android:defaultValue="CASH"/>
     </PreferenceCategory>
+
     <PreferenceCategory
-        android:title="@string/anonymous"
-        android:key="@string/pref_key_anonymous_settings">
-        <SwitchPreference
-            android:title="@string/enable"
-            android:key="@string/pref_key_anonymous"
-            android:summary="@string/enable_anonymity"/>
-    </PreferenceCategory>
-    <PreferenceCategory
-        android:title="Information">
+        android:title="@string/information">
         <PreferenceScreen
-            android:title="About application">
+            android:title="@string/pref_about_title">
             <intent android:action="myintent.action.ABOUTAPP"/>
         </PreferenceScreen>
     </PreferenceCategory>

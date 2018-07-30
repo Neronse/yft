@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">YFT</string>
+    <string name="balance">Баланс:</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="enable">Включить</string>
+    <string name="surname">Фамилия</string>
+    <string name="surname_description">Фамилия пользователя</string>
+    <string name="login">Имя</string>
+    <string name="login_description">Имя пользователя</string>
+    <string name="account">Аккаунт</string>
+    <string name="update_time_description">Как часто обновлять курсы валют</string>
+    <string name="update_period">Период обновления</string>
+    <string name="synchronization">Синхронизация</string>
+    <string name="enable_updates">Включить обновления</string>
+    <string name="update_description">Обновления курса валют</string>
+    <string name="about_description">Какой то текст про приложение, про авторские права и других скучных штуках</string>
+    <string name="about_title">О приложении</string>
+    <string name="information">Информация</string>
+    <string name="pref_about_title">О приложении</string>
+    <string name="exchange_rate">Курсы валют:</string>
+    <string name="account_title">Счет:</string>
+    <string name="last_update">Последнее обновление:</string>
+    <string name="refresh">обновить</string>
+    <string name="history">История</string>
+    <string name="dialog_update_title">Выберите период</string>
+    <string name="currency">Валюта</string>
+    <string name="currencyType">Тип валюты</string>
+    <string name="chooseCurrency">Выберите тип валюты</string>
+    <string name="accout_type">Тип оплаты</string>
+    <string name="choose_account_type">Выберите тип оплаты</string>
+    <string name="category_products">продукты</string>
+    <string name="category_clothes">одежда</string>
+    <string name="category_auto">авто</string>
+    <string name="category_other">разное</string>
+    <string name="income">доход</string>
+    <string name="expense">расход</string>
+    <string name="add_operation">Добавьте операцию</string>
+    <string name="no_operations">Нет операций</string>
+    <string name="сount">Количество:</string>
+    <string name="money">денюжки</string>
+    <string name="choose_category">Категория:</string>
+    <string name="choose_operation">Тип:</string>
+    <string name="comment">Название:</string>
+    <string name="operation_name">название операции</string>
+    <string name="nothing_to_show_yet">Пока нечего нет :(</string>
+    <string name="incomeMoney">Пришли денюжки</string>
+    <string name="expenseMoney">Ушли денюжки</string>
+
+
+</resources>

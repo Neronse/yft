@@ -7,9 +7,44 @@
     </string-array>
 
     <string-array name="pref_syncConnectionTypes_values">
-        <item>10m</item>
-        <item>30m</item>
-        <item>1h</item>
-        <item>1d</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>1440</item>
     </string-array>
+
+    <string-array name="pref_currency_entries">
+        <item>Rubles</item>
+        <item>Dollars</item>
+
+    </string-array>
+
+    <string-array name="pref_currency_values">
+        <item>RUB</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="pref_account_entries">
+        <item>Cash</item>
+        <item>Credit Card</item>
+
+    </string-array>
+
+    <string-array name="pref_account_values">
+        <item>CASH</item>
+        <item>CARD</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>@string/category_other</item>
+        <item>@string/category_products</item>
+        <item>@string/category_clothes</item>
+        <item>@string/category_auto</item>
+    </string-array>
+
+    <string-array name="operation_array">
+        <item>@string/expense</item>
+        <item>@string/income</item>
+    </string-array>
+
 </resources>
